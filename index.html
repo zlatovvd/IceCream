@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>IceCream</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+      integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&family=Seymour+One&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/main.min.css" />
+  </head>
+  <body>
+    <header class="header">
+      
+        <nav class="navigation">
+            <img src="./images/Logo.png" alt="logo" />
+            <ul class="nav-list list">
+              <li class="nav-item">
+                <a href="" class="nav-link link">Home</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link  active-page link">How it’s made?</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link link">Our products</a>
+              </li>
+              <li class="nav-item">
+                <a href="" class="nav-link link">Contact</a>
+              </li>
+            </ul>
+          <button class="secondary-bth nav-btn">Buy now</button>
+        </nav>
+
+        <section class="hero">
+          <div class="container">
+          <h1>ice cream made with passion</h1>
+          <a href="" class="primary-btn products-btn link">Products</a>
+          <a href="" class="primary-link">How it’s made?</a>
+          <div class="hero-ice-info">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et
+          </div>
+          <div class="hero-info">
+            <p><span>16</span></p>
+            <p>cafes</p>
+            <p><span>23</span></p>
+            <p>food trucks</p>
+          </div>
+          </div>
+        </section>
+      
+      <!-- <div class="hero-img__tumb"> -->
+        <picture alt="" class="hero-img" >
+          <source 
+            srcset="./images/desktop-breads.png"
+            media="(min-width: 1200px)"
+          />
+          <source 
+            srcset="./images/tablet-breads.png"
+            media="(min-width: 768px)"
+            />
+          <img src="./images/breads480.png"/>
+        </picture>
+        
+        <picture class="hero-img ice-img">
+          <source 
+            srcset="./images/desktop-hero.png"
+            media="(min-width: 1200px)"
+          />
+          <source 
+            srcset="./images/tablet-hero.png"
+            media="(min-width: 768px)"
+          />
+          <img src="./images/hero480.png" alt=""/>
+        </picture>
+        
+        <picture class="hero-more-ice">
+          <source 
+            srcset="./images/desktop-more-ice.png"
+            media="(min-width: 1200px)"
+          />
+          <source 
+            srcset="./images/tablet-more-ice.png"
+            media="(min-width: 768px)"
+          />
+          <img src="./images/tablet-more-ice.png" alt="">
+        </picture>
+        
+        
+        
+      <!-- </div> -->
+    </header>
+
+    <main>
+      <section class="products">
+        <span>100% natural</span>
+        <h2>products</h2>
+        <ul class="products-list">
+          <li class="products-item">
+            <h3>ice cream</h3>
+            <p>
+              Soft ice cream with a delicate taste. Made with milk, cream, sugar
+              and natural stabilizer
+            </p>
+          </li>
+          <li class="products-item">
+            <h3>ice coffee</h3>
+            <p>
+              Fragrant invigorating drink created from 100% natural ingredients
+              without the use of preservatives and flavor enhancers
+            </p>
+          </li>
+          <li class="products-item">
+            <h3>milkshakes</h3>
+            <p>
+              Sweet drinks based on milk and ice cream, supplemented with
+              syrups, fruits, berries and other sweets of your choice
+            </p>
+          </li>
+        </ul>
+      </section>
+
+      <section class="about">
+        <span>tradition and love</span>
+        <h2>how it’s made?</h2>
+        <div class="about-article">
+          <p>
+            Ice is a place where you will become not only a little happier, but
+            also healthier. Health is the main value for us, and we follow it
+            when creating our handmade desserts.
+          </p>
+          <p>
+            We use traditional recipes and 100% natural ingredients. Our
+            products are so natural that they can be given to children from the
+            age of three years. Sweets lovers can expect 55 types of ice cream,
+            15 types of coffee and 23 milkshakes.
+          </p>
+          <p>This is enough to choose ice cream and coffee for any mood!</p>
+          <button>Read more</button>
+        </div>
+      </section>
+      <section class="advantages">
+        <h2 hidden>Advantages</h2>
+        <ul class="advantages-list">
+          <li class="advantages-item">
+            <span>721</span>
+            <p>Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+          </li>
+          <li class="advantages-item">
+            <span>16kg</span>
+            <p>Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+          </li>
+          <li class="advantages-item">
+            <span>84</span>
+            <p>Aliquam ac dui vel dui vulputate consectetur. Mauris massa.</p>
+          </li>
+        </ul>
+      </section>
+      <section class="gallery"></section>
+      <section class="customer-reviews"></section>
+      <section class="contacts">
+        <h2>Contacts</h2>
+        <ul class="contscts-list">
+          <li class="contscts-item">
+            <span>CAFE</span>
+            <p>Chicago</p>
+            <p>10340 Ridgeland Ave, Chicago Ridge, IL 60415, USA</p>
+            <p>Monday - Friday</p>
+            <p>08:00 AM - 16:00 PM</p>
+            <a href="tel:+61(0)383766284">+61(0) 383 766 284</a>
+            <a href="mailto:noreply@envato.com">noreply@envato.com</a>
+          </li>
+          <li class="contscts-item">
+            <span>FOOD TRUCK</span>
+            <p>Los Angeles</p>
+            <p>1003 Manhattan Ave, Manhattan Beach, CA 90263, USA</p>
+            <p>Monday - Friday</p>
+            <p>08:00 AM - 16:00 PM</p>
+            <a href="tel:+61(0)383766284">+61(0) 383 766 284</a>
+            <a href="mailto:noreply@envato.com">noreply@envato.com</a>
+          </li>
+          <li class="contscts-item">
+            <span>CAFE</span>
+            <p>New York</p>
+            <p>726 Sterling Pl, Brooklyn, NY 11222, USA</p>
+            <p>Monday - Friday</p>
+            <p>08:00 AM - 16:00 PM</p>
+            <a href="tel:+61(0)383766284">+61(0) 383 766 284</a>
+            <a href="mailto:noreply@envato.com">noreply@envato.com</a>
+          </li>
+        </ul>
+        <button>Our Locations</button>
+        <button>Franchise</button>
+      </section>
+    </main>
+
+    <footer>
+      <span>homemade ice cream made </span>
+      <span>with passion</span>
+      <ul>
+        <li>
+          <a href=""></a>
+        </li>
+        <li>
+          <a href=""></a>
+        </li>
+        <li>
+          <a href=""></a>
+        </li>
+      </ul>
+      <label for="">
+        Feel free to contact
+        <a href="tel:+61(0)383766284">+61 (0) 383 766 284</a>
+      </label>
+    </footer>
+  </body>
+</html>
