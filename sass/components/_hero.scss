@@ -1,0 +1,166 @@
+.hero {
+  padding-top: 99px;
+  padding-bottom: 236px;
+  background-image: url("../../images/hero-mobile.png"),
+    url("../../images/breads-mobile.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+}
+
+.hero_title {
+  width: 247px;
+  font-family: "Seymour One";
+  font-weight: 400;
+  font-size: 26px;
+  line-height: 1.27;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fcfcfc;
+}
+
+.hero-btns {
+  display: flex;
+  align-items: baseline;
+  margin-top: 32px;
+}
+
+.products-btn {
+  margin-right: 12px;
+  width: 108px;
+}
+
+.hero__ice-info {
+  display: none;
+  margin-top: 39px;
+  margin-left: 184px;
+  width: 165px;
+}
+
+.hero__ice-info_description {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.4;
+  color: #ffffff;
+}
+
+.hero__ice-info__btn {
+  margin-top: 22px;
+}
+
+.hero__advantages {
+  display: none;
+  position: absolute;
+  top: 94px;
+  right: 32px;
+}
+
+.hero__advantages-value {
+  margin-bottom: 4px;
+  font-weight: 900;
+  font-size: 28px;
+  line-height: 34px;
+  text-align: right;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.hero__advantages-description {
+  font-weight: 400;
+  font-size: 8px;
+  line-height: 10px;
+  text-align: right;
+  color: #fcfcfc;
+
+  &:not(:last-child) {
+    margin-bottom: 20px;
+  }
+}
+
+@media screen and (min-width: 480px) {
+  .hero {
+    padding-top: 98px;
+    padding-bottom: 150px;
+    background-image: url("../../images/hero480.png"),
+      url("../../images/breads480.png");
+    background-position: bottom right 20px, bottom right;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .hero {
+    padding-top: 80px;
+    padding-bottom: 17px;
+    background-image: url("../../images/tablet-more-ice.png"),
+      url("../../images/tablet-hero.png"), url("../../images/tablet-breads.png");
+    background-position: bottom 12px left 32px, bottom right 92px, bottom;
+  }
+
+  .hero-btns {
+    margin-top: 24px;
+  }
+
+  .hero__ice-info {
+    display: block;
+  }
+
+  .hero__advantages {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .hero {
+    padding-top: 118px;
+    padding-bottom: 96px;
+    background-image: url("../../images/desktop-more-ice.png"),
+      url("../../images/desktop-hero.png"), url("../../images/desktop-breads.png");
+    background-position: bottom 65px left 16px, bottom right 92px, bottom;
+  }
+
+  .hero_title {   
+    width: 367px;
+    font-size: 38px;
+    line-height: 1.26;
+  }
+
+  .hero-btns {
+    margin-top: 28px;
+  }
+
+  .hero__ice-info {
+    margin-left: 241px;
+    margin-top: 109px;
+    width: 200px;
+  }
+
+  .hero__ice-info_description {
+    font-size: 14px;
+  }  
+
+  .hero__ice-info__btn {
+    margin-top: 17px;
+  }
+
+  .hero__advantages {
+    top: 126px;
+    right: 16px;
+  }
+  
+  .hero__advantages-value {
+    margin-bottom: 4px;
+    font-size: 46px;
+    line-height: 1.22;
+  }
+  
+  .hero__advantages-description {
+    font-size: 14px;
+    line-height: 1.21;
+ 
+    &:not(:last-child) {
+      margin-bottom: 16px;
+    }
+  }  
+
+}

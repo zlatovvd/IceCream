@@ -1,0 +1,162 @@
+.about {
+  width: 320px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about__container {
+  padding-top: 61px;
+  background-image: url("../../images/cow-mobile.png");
+  background-position: top 241px center;
+  background-repeat: no-repeat;
+}
+
+.about__label {
+  margin-bottom: 12px;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1.22;
+  text-align: center;
+  text-transform: uppercase;
+  color: #fcfcfc;
+}
+
+.about__title {
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 372px;
+  max-width: 200px;
+  font-family: "Seymour One";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 1.27;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #fcfcfc;
+}
+
+.about__article-container {
+  width: 220px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about__article {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.76;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #fcfcfc;
+
+  &:not(:last-child) {
+    margin-bottom: 4px;
+  }
+}
+
+.about__read__more-btn {
+  width: 164px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 24px;
+}
+
+@media screen and (min-width: 480px) {
+  .about {
+    width: 480px;
+  }
+
+  .about__container {
+    padding-top: 60px;
+    background-position: top 240px center;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .about {
+    width: 768px;
+  }
+
+  .about__container {
+    padding-top: 60px;
+    padding-bottom: 46px;
+    background-image: url("../../images/cow-tablet.png");
+    background-position: top 214px left 16px;
+  }
+
+  .about__label {
+    font-weight: 800;
+    font-size: 22px;
+    line-height: 1.23;
+  }
+
+  .about__title {
+    max-width: 454px;
+    margin-bottom: 80px;
+    font-size: 34px;
+    line-height: 1.26;
+  }
+
+  .about__article-container {
+    width: 330px;
+    margin-left: auto;
+    margin-right: 0;
+  }
+
+  .about__article {
+    text-align: left;
+
+    &:not(:last-child) {
+        margin-bottom: 8px;
+      }
+  }
+
+  .about__read__more-btn {
+    margin-left: 0;
+    margin-top: 32px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .about {
+    width: 1200px;
+  }
+
+  .about__container {
+    padding-top: 60px;
+    padding-bottom: 136px;
+    background-image: url("../../images/cow-desktop.png");
+    background-position: top 236px left 16px;
+  }
+
+  .about__label {
+    font-size: 30px;
+  }
+
+  .about__title {
+    max-width: 481px;
+    margin-bottom: 172px;
+    font-size: 36px;
+    line-height: 1.25;
+  }  
+
+  .about__article-container {
+    width: 463px;
+    margin-left: auto;
+  }  
+
+  .about__article {
+    font-size: 16px;
+  
+    &:not(:last-child) {
+      margin-bottom: 8px;
+    }
+  }
+
+  .about__read__more-btn {
+    margin-top: 54px;
+  }  
+
+}
