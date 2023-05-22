@@ -241,7 +241,7 @@ img {
 .hero {
   padding-top: 99px;
   padding-bottom: 236px;
-  background-image: url("../../images/hero-mobile.png"), url("../../images/breads-mobile.png");
+  background-image: url(../images/hero-mobile.png), url(../images/breads-mobile.png);
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -324,7 +324,7 @@ img {
   .hero {
     padding-top: 98px;
     padding-bottom: 150px;
-    background-image: url("../../images/hero480.png"), url("../../images/breads480.png");
+    background-image: url(../images/hero480.png), url(../images/breads480.png);
     background-position: bottom right 20px, bottom right;
   }
 }
@@ -332,7 +332,7 @@ img {
   .hero {
     padding-top: 80px;
     padding-bottom: 17px;
-    background-image: url("../../images/tablet-more-ice.png"), url("../../images/tablet-hero.png"), url("../../images/tablet-breads.png");
+    background-image: url(../images/tablet-more-ice.png), url(../images/tablet-hero.png), url(../images/tablet-breads.png);
     background-position: bottom 12px left 32px, bottom right 92px, bottom;
   }
   .hero-btns {
@@ -349,7 +349,7 @@ img {
   .hero {
     padding-top: 118px;
     padding-bottom: 96px;
-    background-image: url("../../images/desktop-more-ice.png"), url("../../images/desktop-hero.png"), url("../../images/desktop-breads.png");
+    background-image: url(../images/desktop-more-ice.png), url(../images/desktop-hero.png), url(../images/desktop-breads.png);
     background-position: bottom 65px left 16px, bottom right 92px, bottom;
   }
   .hero_title {
@@ -393,7 +393,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   background-color: #ffffff;
-  background-image: url("../../images/Frame1-mobile.png"), url("../../images/Frame2-mobile.png");
+  background-image: url(../images/Frame1-mobile.png), url(../images/Frame2-mobile.png);
   background-position: 0px 0px, 0px 994px;
   background-repeat: no-repeat, no-repeat;
 }
@@ -453,7 +453,7 @@ img {
 
 .products-list__ice-cream::before {
   content: "";
-  background-image: url("../../images/ice-cream.png");
+  background-image: url(../images/ice-cream.png);
   background-repeat: no-repeat;
   background-position-x: center;
   position: absolute;
@@ -469,7 +469,7 @@ img {
 
 .products-list__ice-coffee::before {
   content: "";
-  background-image: url("../../images/ice-coffee.png");
+  background-image: url(../images/ice-coffee.png);
   background-repeat: no-repeat;
   background-position-x: center;
   position: absolute;
@@ -485,7 +485,7 @@ img {
 
 .products-list__milkshakes::before {
   content: "";
-  background-image: url("../../images/milkshakes.png");
+  background-image: url(../images/milkshakes.png);
   background-repeat: no-repeat;
   background-position-x: center;
   position: absolute;
@@ -518,7 +518,7 @@ img {
 @media screen and (min-width: 480px) {
   .products {
     width: 480px;
-    background-image: url("../../images/Frame1-480.png"), url("../../images/Frame2-480.png");
+    background-image: url(../images/Frame1-480.png), url(../images/Frame2-480.png);
   }
   .products__container {
     padding-top: 60px;
@@ -535,7 +535,7 @@ img {
 @media screen and (min-width: 768px) {
   .products {
     width: 768px;
-    background-image: url("../../images/products_back-tablet.png");
+    background-image: url(../images/products_back-tablet.png);
     background-position: top;
   }
   .products__container {
@@ -571,7 +571,7 @@ img {
 @media screen and (min-width: 1200px) {
   .products {
     width: 1200px;
-    background-image: url("../../images/products-back-desktop.png");
+    background-image: url(../images/products-back-desktop.png);
     background-position: top;
   }
   .products__container {
@@ -594,19 +594,19 @@ img {
     margin-right: 29px;
   }
   .products-list__ice-cream::before {
-    background-image: url("../../images/ice-cream-desktop.png");
+    background-image: url(../images/ice-cream-desktop.png);
     top: -183px;
     width: 302px;
     height: 318px;
   }
   .products-list__ice-coffee::before {
-    background-image: url("../../images/ice-coffee-desktop.png");
+    background-image: url(../images/ice-coffee-desktop.png);
     top: -183px;
     width: 302px;
     height: 318px;
   }
   .products-list__milkshakes::before {
-    background-image: url("../../images/milkshakes-desktop.png");
+    background-image: url(../images/milkshakes-desktop.png);
     top: -183px;
     width: 302px;
     height: 318px;
@@ -628,7 +628,7 @@ img {
 
 .about__container {
   padding-top: 61px;
-  background-image: url("../../images/cow-mobile.png");
+  background-image: url(../images/cow-mobile.png);
   background-position: top 241px center;
   background-repeat: no-repeat;
 }
@@ -700,7 +700,7 @@ img {
   .about__container {
     padding-top: 60px;
     padding-bottom: 46px;
-    background-image: url("../../images/cow-tablet.png");
+    background-image: url(../images/cow-tablet.png);
     background-position: top 214px left 16px;
   }
   .about__label {
@@ -737,7 +737,7 @@ img {
   .about__container {
     padding-top: 60px;
     padding-bottom: 136px;
-    background-image: url("../../images/cow-desktop.png");
+    background-image: url(../images/cow-desktop.png);
     background-position: top 236px left 16px;
   }
   .about__label {
@@ -791,17 +791,17 @@ img {
 }
 
 .advantages-cow::before {
-  background-image: url("../../images/cow-icon-mobile.png");
+  background-image: url(../images/cow-icon-mobile.png);
   background-repeat: no-repeat;
 }
 
 .advantages-weight::before {
-  background-image: url("../../images/weight-mobile.png");
+  background-image: url(../images/weight-mobile.png);
   background-repeat: no-repeat;
 }
 
 .advantages-ice::before {
-  background-image: url("../../images/ice-mobile.png");
+  background-image: url(../images/ice-mobile.png);
   background-repeat: no-repeat;
 }
 
@@ -945,7 +945,7 @@ img {
   margin-left: auto;
   margin-right: auto;
   background-color: #ffffff;
-  background-image: url("../../images/Frame3-mobile.png");
+  background-image: url(../images/Frame3-mobile.png);
   background-repeat: no-repeat;
   background-position: 0px 0px;
 }
@@ -1013,7 +1013,7 @@ img {
     width: 480px;
     padding-top: 235px;
     padding-bottom: 409px;
-    background-image: url("../../images/Frame1-480.png");
+    background-image: url(../images/Frame1-480.png);
   }
   .rewiews {
     padding: 35px 39px;
@@ -1025,7 +1025,7 @@ img {
     width: 768px;
     padding-top: 283px;
     padding-bottom: 379px;
-    background-image: url("../../images/customer-back-tablet.png");
+    background-image: url(../images/customer-back-tablet.png);
   }
   .rewiews {
     width: 705px;
@@ -1045,7 +1045,7 @@ img {
     width: 1200px;
     padding-top: 464px;
     padding-bottom: 228px;
-    background-image: url("../../images/customer-back-desktop.png");
+    background-image: url(../images/customer-back-desktop.png);
   }
   .rewiews {
     width: 968px;

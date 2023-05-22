@@ -1,8 +1,8 @@
 .hero {
   padding-top: 99px;
   padding-bottom: 236px;
-  background-image: url("../../images/hero-mobile.png"),
-    url("../../images/breads-mobile.png");
+  background-image: url(../images/hero-mobile.png),
+    url(../images/breads-mobile.png);
   background-repeat: no-repeat;
   background-position: bottom;
 }
@@ -82,8 +82,8 @@
   .hero {
     padding-top: 98px;
     padding-bottom: 150px;
-    background-image: url("../../images/hero480.png"),
-      url("../../images/breads480.png");
+    background-image: url(../images/hero480.png),
+      url(../images/breads480.png);
     background-position: bottom right 20px, bottom right;
   }
 }
@@ -92,8 +92,8 @@
   .hero {
     padding-top: 80px;
     padding-bottom: 17px;
-    background-image: url("../../images/tablet-more-ice.png"),
-      url("../../images/tablet-hero.png"), url("../../images/tablet-breads.png");
+    background-image: url(../images/tablet-more-ice.png),
+      url(../images/tablet-hero.png), url(../images/tablet-breads.png);
     background-position: bottom 12px left 32px, bottom right 92px, bottom;
   }
 
@@ -114,8 +114,8 @@
   .hero {
     padding-top: 118px;
     padding-bottom: 96px;
-    background-image: url("../../images/desktop-more-ice.png"),
-      url("../../images/desktop-hero.png"), url("../../images/desktop-breads.png");
+    background-image: url(../images/desktop-more-ice.png),
+      url(../images/desktop-hero.png), url(../images/desktop-breads.png);
     background-position: bottom 65px left 16px, bottom right 92px, bottom;
   }
 
