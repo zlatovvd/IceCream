@@ -33,24 +33,24 @@
         </picture>
         <ul class="nav-list list">
           <li class="nav-item">
-            <a href="" class="nav-link link">Home</a>
+            <a href="\" class="nav-link link">Home</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link active-page link">How it’s made?</a>
+            <a href="#about" class="nav-link active-page link">How it’s made?</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link link">Our products</a>
+            <a href="#products" class="nav-link link">Our products</a>
           </li>
           <li class="nav-item">
-            <a href="" class="nav-link link">Contact</a>
+            <a href="#contacts" class="nav-link link">Contact</a>
           </li>
         </ul>
-        <button type="button" class="menu__open-btn" data-menu-open>
+        <button type="button" class="menu__open-btn is-visible" data-menu-open>
           <svg class="menu__open-img" height="32" width="32">
             <use href="./images/icons.svg#icon-menu"></use>
           </svg>
         </button>
-        <button class="secondary-bth nav-btn">
+        <button class="secondary-bth nav-btn buy-now__btn">
           Buy now
           <svg class="btn__icon" height="14" width="14">
             <use href="./images/icons.svg#icon-right"></use>
@@ -92,7 +92,7 @@
 
     <main>
 
-      <section class="products">
+      <section class="products" id="products">
         <div class="products__container container">
           <p class="products__label">100% natural</p>
           <h2 class="products__title">products</h2>
@@ -150,7 +150,7 @@
         </div>
       </section>
 
-      <section class="about">
+      <section class="about" id="about">
         <div class="container about__container">
           <p class="about__label">tradition and love</p>
           <h2 class="about__title">how it’s made?</h2>
@@ -257,7 +257,7 @@
         </ul>
       </section>
 
-      <section class="contacts">
+      <section class="contacts" id="contacts">
         <h2 hidden>Contacts</h2>
         <div class="contacts__wrapper">
           <ul class="contacts-list list">
@@ -354,5 +354,85 @@
       </div>
       
     </footer>
+
+    <div class="mobile-menu" data-menu>
+      <div class="container">
+        <div class="mobile__menu-header">
+          <picture>
+            <source
+                srcset="./images/Logo-desktop.png"
+                media="(min-width: 1200px)"
+              />
+              <img class="logo-modal" src="./images/Logo.png" alt="logo" />
+          </picture>
+          <button type="button" class="menu__close-btn" data-menu-close>
+            <svg height="20" width="20">
+              <use href="./images/icons.svg#icon-close"></use>
+            </svg>
+          </button>
+        </div>
+        <ul class="mobile__nav-list list">
+          <li class="mobile__nav-item">
+            <a href="\" class="mobile__nav-link link">Home</a>
+          </li>
+          <li class="mobile__nav-item">
+            <a href="#about" class="mobile__nav-link active-page link">How it’s made?</a>
+          </li>
+          <li class="mobile__nav-item">
+            <a href="#products" class="mobile__nav-link link">Our products</a>
+          </li>
+          <li class="mobile__nav-item">
+            <a href="#contacts" class="mobile__nav-link link">Contact</a>
+          </li>
+        </ul>
+        <button class="secondary-bth mobile-nav-btn buy-now__btn">
+          Buy now
+          <svg class="btn__icon" height="14" width="14">
+            <use href="./images/icons.svg#icon-right"></use>
+          </svg>
+        </button>
+      </div>
+    </div>
+
+
+    <div class="backdrop is-hidden">
+      <div class="buy-now__modal">
+        <button type="button" class="modal__close-btn" data-menu-close>
+          <svg height="20" width="20">
+            <use href="./images/icons.svg#icon-close"></use>
+          </svg>
+        </button>
+        <h2 class="buy-now__title">Buy now</h2>
+        <ul class="products__list-modal list">
+          <li class="products__item-modal ice-cream__modal">
+            <h3 class="products__title-modal">ICE CREAM</h3>          
+          </li>
+          <li class="products__item-modal ice-coffee__modal">
+            <h3 class="products__title-modal">ICE COFFEE</h3>          
+          </li>
+          <li class="products__item-modal milkshake__modal">
+            <h3 class="products__title-modal">MILKSHAKE</h3>          
+          </li>
+        </ul>
+
+        <form class="buy-now__form" action="">
+          <input type="text" 
+                class="form-name buy-now__input" 
+                name="name" 
+                placeholder="Name">
+          <input type="text" 
+                class="form-phone buy-now__input" 
+                name="phone" 
+                placeholder="Phone">
+          <textarea name="comment" 
+                placeholder="Comment" 
+                class="buy-now__message">
+          </textarea>
+          <input type="submit" class="secondary-bth buy-now__submit-btn" value="Submit">
+        </form>
+      </div>
+    </div>
+
+    <script src="./js/mobile-menu.js"></script>
   </body>
 </html>
