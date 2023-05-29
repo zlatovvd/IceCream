@@ -1561,6 +1561,7 @@ img {
   background-color: rgba(0, 0, 0, 0.5);
   -webkit-transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1), visibility 500ms cubic-bezier(0.4, 0, 0.2, 1);
   transition: opacity 500ms cubic-bezier(0.4, 0, 0.2, 1), visibility 500ms cubic-bezier(0.4, 0, 0.2, 1);
+  overflow: auto;
   z-index: 1000;
 }
 .backdrop.is-hidden {
