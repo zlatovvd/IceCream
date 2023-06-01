@@ -10,8 +10,6 @@ const refs = {
 
 const toggleMenu = () => {
   refs.mobileMenu.classList.toggle("is-visible");
-  refs.menuCloseBtn.classList.toggle("is-visible");
-  refs.menuOpenBtn.classList.toggle("is-visible");
 };
 
 const togleModal = () => {

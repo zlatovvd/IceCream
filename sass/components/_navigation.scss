@@ -45,7 +45,6 @@
     margin-left: auto;
     line-height: 0;
     fill: #ffffff;
-    visibility: hidden;
 }
   
 .menu__open-btn:hover,
@@ -100,6 +99,10 @@
     .logo {
         width: 60px;
         height: 65px;
+    }
+
+    .menu__open-btn {
+        visibility: hidden;
     }
     
     .nav-list {

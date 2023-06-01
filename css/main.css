@@ -170,7 +170,6 @@ img {
   margin-left: auto;
   line-height: 0;
   fill: #ffffff;
-  visibility: hidden;
 }
 
 .menu__open-btn:hover,
@@ -216,6 +215,9 @@ img {
   .logo {
     width: 60px;
     height: 65px;
+  }
+  .menu__open-btn {
+    visibility: hidden;
   }
   .nav-list {
     display: -webkit-box;
@@ -1463,8 +1465,19 @@ img {
   padding-top: 100px;
   padding-bottom: 64px;
   background-color: #84a178;
-  visibility: hidden;
+  pointer-events: none;
   z-index: 999;
+  -webkit-transform: translateY(-100%);
+          transform: translateY(-100%);
+  -webkit-transition: -webkit-transform 250ms linear;
+  transition: -webkit-transform 250ms linear;
+  transition: transform 250ms linear;
+  transition: transform 250ms linear, -webkit-transform 250ms linear;
+}
+.mobile-menu.is-visible {
+  pointer-events: auto;
+  -webkit-transform: translateY(0);
+          transform: translateY(0);
 }
 
 .logo-modal {
@@ -1486,16 +1499,11 @@ img {
   margin-left: auto;
   line-height: 0;
   fill: #ffffff;
-  visibility: hidden;
 }
 
 .menu__close-btn:hover,
 .menu__close-btn:focus {
   fill: #0A8817;
-}
-
-.is-visible {
-  visibility: visible;
 }
 
 .mobile__nav-item .mobile__nav-link {
