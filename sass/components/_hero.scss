@@ -5,6 +5,16 @@
     url(../images/breads-mobile.png);
   background-repeat: no-repeat;
   background-position: bottom;
+  animation: move 500ms linear;
+}
+
+@keyframes move {
+  from {
+    background-position: right top;
+  }
+  to {
+    background-size: bottom;
+  }
 }
 
 .hero_title {
