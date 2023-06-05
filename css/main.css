@@ -141,6 +141,8 @@ img {
   padding-left: 20px;
   padding-right: 20px;
   padding-top: 12px;
+  background-color: #84A178;
+  z-index: 99999;
 }
 
 .logo {
